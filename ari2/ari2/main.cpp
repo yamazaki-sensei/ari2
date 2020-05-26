@@ -8,7 +8,9 @@
 
 #include <iostream>
 #include "p021.hpp"
+#include "p023.hpp";
 
 int main(int argc, const char * argv[]) {
-    solveP021();
+//    solveP021();
+    solveP023();
 }

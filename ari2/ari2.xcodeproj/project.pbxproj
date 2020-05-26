@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		42DA5C78247AC3FB00AC212B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DA5C77247AC3FB00AC212B /* main.cpp */; };
 		42DA5C85247AC48A00AC212B /* p021.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DA5C83247AC48A00AC212B /* p021.cpp */; };
+		42DA5CAE247D679C00AC212B /* p023.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DA5CAC247D679C00AC212B /* p023.cpp */; };
+		42DA5CB1247D68E900AC212B /* template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DA5CB0247D68E900AC212B /* template.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,9 @@
 		42DA5C77247AC3FB00AC212B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		42DA5C83247AC48A00AC212B /* p021.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = p021.cpp; sourceTree = "<group>"; };
 		42DA5C84247AC48A00AC212B /* p021.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p021.hpp; sourceTree = "<group>"; };
+		42DA5CAC247D679C00AC212B /* p023.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = p023.cpp; sourceTree = "<group>"; };
+		42DA5CAD247D679C00AC212B /* p023.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p023.hpp; sourceTree = "<group>"; };
+		42DA5CB0247D68E900AC212B /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +65,30 @@
 		42DA5C76247AC3FB00AC212B /* ari2 */ = {
 			isa = PBXGroup;
 			children = (
+				42DA5CAB247D678000AC212B /* p023 */,
+				42DA5CAA247D677000AC212B /* p021 */,
 				42DA5C77247AC3FB00AC212B /* main.cpp */,
+				42DA5CB0247D68E900AC212B /* template.cpp */,
+			);
+			path = ari2;
+			sourceTree = "<group>";
+		};
+		42DA5CAA247D677000AC212B /* p021 */ = {
+			isa = PBXGroup;
+			children = (
 				42DA5C83247AC48A00AC212B /* p021.cpp */,
 				42DA5C84247AC48A00AC212B /* p021.hpp */,
 			);
-			path = ari2;
+			path = p021;
+			sourceTree = "<group>";
+		};
+		42DA5CAB247D678000AC212B /* p023 */ = {
+			isa = PBXGroup;
+			children = (
+				42DA5CAC247D679C00AC212B /* p023.cpp */,
+				42DA5CAD247D679C00AC212B /* p023.hpp */,
+			);
+			path = p023;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				42DA5C85247AC48A00AC212B /* p021.cpp in Sources */,
+				42DA5CB1247D68E900AC212B /* template.cpp in Sources */,
 				42DA5C78247AC3FB00AC212B /* main.cpp in Sources */,
+				42DA5CAE247D679C00AC212B /* p023.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
