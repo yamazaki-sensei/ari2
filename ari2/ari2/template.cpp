@@ -6,7 +6,9 @@
 //  Copyright © 2020 hira. All rights reserved.
 //
 
-#define max std::max
-#define min std::min
 
 #include <stdio.h>
+#include <algorithm>
+#define max std::max
+#define min std::min
+#define sort std::sort
