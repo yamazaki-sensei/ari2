@@ -12,9 +12,9 @@
 #define min std::min
 #define sort std::sort
 
-int n, m, *k;
+static int n, m, *k;
 
-bool binary_search(int x) {
+static bool binary_search(int x) {
     int l = 0, r = n;
 
     while (r - l >= 1) {
@@ -27,7 +27,7 @@ bool binary_search(int x) {
     return false;
 }
 
-void _solveP026(int _n, int _m, int _k[]) {
+static void _solveP026(int _n, int _m, int _k[]) {
     n = _n;
     m = _m;
     k = _k;

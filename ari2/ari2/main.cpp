@@ -9,9 +9,11 @@
 #include "p021.hpp"
 #include "p023.hpp"
 #include "p026.hpp"
+#include "p027.hpp"
 
 int main(int argc, const char * argv[]) {
 //    solveP021();
 //    solveP023();
-    solveP026();
+//    solveP026();
+    solveP027();
 }

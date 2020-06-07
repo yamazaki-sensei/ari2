@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424BBEAC248D455900B56BB6 /* p027.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 424BBEAA248D455900B56BB6 /* p027.cpp */; };
 		42A9510E247EBF7E00DDA406 /* p026.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42A9510C247EBF7E00DDA406 /* p026.cpp */; };
 		42DA5C78247AC3FB00AC212B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DA5C77247AC3FB00AC212B /* main.cpp */; };
 		42DA5C85247AC48A00AC212B /* p021.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DA5C83247AC48A00AC212B /* p021.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		424BBEAA248D455900B56BB6 /* p027.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = p027.cpp; sourceTree = "<group>"; };
+		424BBEAB248D455900B56BB6 /* p027.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p027.hpp; sourceTree = "<group>"; };
 		42A9510C247EBF7E00DDA406 /* p026.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = p026.cpp; sourceTree = "<group>"; };
 		42A9510D247EBF7E00DDA406 /* p026.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = p026.hpp; sourceTree = "<group>"; };
 		42DA5C74247AC3FB00AC212B /* ari2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ari2; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424BBEA9248D454200B56BB6 /* p027 */ = {
+			isa = PBXGroup;
+			children = (
+				424BBEAA248D455900B56BB6 /* p027.cpp */,
+				424BBEAB248D455900B56BB6 /* p027.hpp */,
+			);
+			path = p027;
+			sourceTree = "<group>";
+		};
 		42A9510B247EBF4C00DDA406 /* p026 */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +89,7 @@
 		42DA5C76247AC3FB00AC212B /* ari2 */ = {
 			isa = PBXGroup;
 			children = (
+				424BBEA9248D454200B56BB6 /* p027 */,
 				42A9510B247EBF4C00DDA406 /* p026 */,
 				42DA5CAB247D678000AC212B /* p023 */,
 				42DA5CAA247D677000AC212B /* p021 */,
@@ -163,6 +176,7 @@
 			files = (
 				42DA5C85247AC48A00AC212B /* p021.cpp in Sources */,
 				42DA5CB1247D68E900AC212B /* template.cpp in Sources */,
+				424BBEAC248D455900B56BB6 /* p027.cpp in Sources */,
 				42DA5C78247AC3FB00AC212B /* main.cpp in Sources */,
 				42A9510E247EBF7E00DDA406 /* p026.cpp in Sources */,
 				42DA5CAE247D679C00AC212B /* p023.cpp in Sources */,
